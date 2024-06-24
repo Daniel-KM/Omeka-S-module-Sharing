@@ -9,7 +9,7 @@ $emailBody = $this->serverUrl(true);
 
 <?php if ($displayAsButton): ?>
 <details class="button-details sharing-details">
-<summary class="button"><span class="fas fa-share-alt"></span></summary>
+    <summary class="button" title="<?= $translate('Share') ?>" aria-label="<?= $translate('Share') ?>" aria-expanded="false"><span class="fas fa-share-alt"></span></summary>
 <?php endif; ?>
 
 <ul id='sharing-buttons'>
